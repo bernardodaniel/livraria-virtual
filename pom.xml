@@ -31,11 +31,11 @@
             <artifactId>jersey-hk2</artifactId>
         </dependency>
 
-        <!-- uncomment this to get JSON support
+        <!-- uncomment this to get JSON support -->
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-json-binding</artifactId>
-        </dependency> -->
+        </dependency> 
 
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
@@ -100,6 +100,7 @@
                     <war>${project.build.directory}/${project.build.finalName}.war</war>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 
